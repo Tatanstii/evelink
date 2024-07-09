@@ -14,8 +14,10 @@
     "commitlint": "commitlint --edit"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.4.0",
     "zod": "^3.23.8",
     "zustand": "^4.5.4"
   },
