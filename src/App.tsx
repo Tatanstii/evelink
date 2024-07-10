@@ -1,10 +1,7 @@
+import HomePage from './pages/Home'
+
 function App() {
-  return (
-    <div>
-      <p>Test</p>
-      <p>2</p>
-    </div>
-  )
+  return <HomePage />
 }
 
 export default App

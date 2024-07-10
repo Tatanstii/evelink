@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --deluger-50: 250 50% 98%;
+  --deluger-100: 260 39% 95%;
+  --deluger-200: 253 43% 92%;
+  --deluger-300: 255 42% 85%;
+  --deluger-400: 259 42% 76%;
+  --deluger-500: 261 41% 66%;
+  --deluger-600: 266 38% 58%;
+  --deluger-700: 267 32% 54%;
+  --deluger-800: 267 31% 42%;
+  --deluger-900: 267 30% 35%;
+
+  --primary: hsl(var(--deluger-500));
+  --primary-light: hsl(var(--deluger-300));
+  --primary-dark: hsl(var(--deluger-900));
+
+  --background: hsl(var(--deluger-100));
+  --foreground: hsl(var(--deluger-900));
+
+  --accent: #333;
+  --accent-foreground: #f9f9f9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+body,
+#root {
+  min-height: 100dvh;
+}
+
+.default__icon {
+  @apply h-5 w-5;
+}
