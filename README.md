@@ -14,7 +14,7 @@ Proyecto para crear accesos directos de sitios web
 ### Clonar el repositorio
 
 ```shell
-git clone https://github.com/Tatanstii/start-wars-album.git
+git clone https://github.com/Tatanstii/evelink.git
 ```
 
 ### Instalar paquetes
